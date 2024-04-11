@@ -15,10 +15,10 @@ function Track() {
   }
    async function handleSubmit(event){
     event.preventDefault();
-    setConsignmentNumber("");
     console.log("->",consignmentNumber);
-    // const result = await axios.post(`http://localhost:3001/`,{consignmentNumber});
-    // console.log("->",result);
+    const result = await axios.post(`https://sdac-backend.vercel.app/`,{consignmentNumber});
+    console.log("->",result);
+    setConsignmentNumber("");
     router.push('/pages/track');
   }
   return (
