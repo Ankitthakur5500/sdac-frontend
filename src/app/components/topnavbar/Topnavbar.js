@@ -11,9 +11,9 @@ function Topnavbar() {
         <div className="row justify-content-between">
           <div className="col-6">
             <div className='d-inline'>
-              <a href="#" className=""><DraftsOutlinedIcon/><span className="d-none d-md-inline-block">shreedurgaonline@gmail.com</span></a>
+              <a href="#" className=""><DraftsOutlinedIcon/><span className="d-none d-md-inline-block">onlinesdac@gmail.com</span></a>
               <span className="mx-md-2 d-inline-block"></span>
-              <a href="#" className=""><PhoneIcon/> <span className="d-none d-md-inline-block">+91 9706124551</span></a>
+              <a href="#" className=""><PhoneIcon/> <span className="d-none d-md-inline-block">0361-3571026</span></a>
             </div>
           </div>
           <div className="col-6 text-end">
